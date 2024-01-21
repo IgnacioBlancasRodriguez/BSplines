@@ -43,3 +43,5 @@ otherwise
 ```math
 N_{i,j}(t)= \frac{t - t_i}{t_{i+j}-t_i}N_{i,j-1}(t) + \frac{t_{i+j+1} - t_i}{t_{i+j+1} - t_{i+1}}N_{i+1,j-1}(t)
 ```
+## 3. App functionality
+Finally, the Python app allows you to drag the initial points as the curve gets updated in real time.
